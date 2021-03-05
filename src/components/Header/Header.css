@@ -1,0 +1,17 @@
+.home_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.profile_pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}

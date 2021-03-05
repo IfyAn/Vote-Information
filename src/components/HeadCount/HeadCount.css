@@ -1,0 +1,38 @@
+/*Vote Nav*/
+.profile_pic {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+  }
+  
+  .back_btn {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+  }
+  
+  .vote_nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .vote_nav_text {
+      font-size: 25px;
+      margin: 0px 20px;
+      text-align: center;
+  }
+
+  @media (max-width: 500px) {
+    .back_btn {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+    }
+
+    .profile_pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+    }
+}

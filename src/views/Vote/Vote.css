@@ -1,0 +1,59 @@
+body {
+      padding: 20px 2%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  a:-webkit-any-link {
+      color: black;
+      cursor: pointer;
+  }
+
+  .upcoming_election, .past_election {
+      font-size: 25px;
+      font-weight: bold;
+  }
+  
+  .upelection_details_div, .pastelection_details_div {
+      background: rgb(236, 236, 236);
+      border: 1px solid lightgray;
+      padding: 15px 10px;
+      font-size: 20px;
+      margin: 10px 0px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 98%;
+      text-align: left;
+  }
+  
+  .upelection_cover, .pastelection_cover {
+      margin: 20px 0px;
+  }
+  
+  .pastelection_cover {
+      margin-top: 50px;
+  }
+  
+  .seemore {
+      background: rgb(236, 236, 236);
+      border: 1px solid lightgray;
+      width: 200px;
+      height: 50px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px auto;
+      font-size: 20px;
+      margin-top: 30px;
+      cursor: pointer;
+  }
+  
+  @media (max-width: 500px) {
+      .seemore {
+          width: 150px;
+      }
+  }

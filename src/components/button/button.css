@@ -1,0 +1,15 @@
+.custom_btn{
+    background-color: #028537 !important;
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 0px !important;
+    width: 120px !important;
+    color: white !important;
+}
+
+.custom_btn:hover{
+    background-color: white !important;
+    border: 2px solid #028537 !important;
+    color: #028537 !important;
+}

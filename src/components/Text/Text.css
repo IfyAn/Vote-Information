@@ -1,0 +1,14 @@
+.elec_table {
+      margin: 20px 0px;
+  }
+  
+  .elec_main {
+      font-weight: bold;
+      font-size: 35px;
+  }
+  
+  .elec_sub {
+      color: gray;
+      font-size: 20px;
+      font-weight: bold;
+  }

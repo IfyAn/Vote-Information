@@ -1,0 +1,18 @@
+.login_form_label{
+    width: 20%;
+    text-align: start;
+}
+
+.login_form{
+    padding: 0px 45px;
+}
+
+.login_form_group{
+    padding: 20px 0px;
+}
+
+.page_title{
+    font-size: 30px;
+    color: #028537;
+    font-weight: bolder;
+}
